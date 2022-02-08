@@ -15,8 +15,6 @@ if(!isset($_SESSION['city'])){
         $_SESSION['city']='Kyiv';
     }
 
-
-
 }
 $city_id = $_SESSION['city'];
 $city = $cities[$city_id];
